@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Portfólio</title>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li> <a href="#sobre">Sobre mim</a> </li>
+                <li> <a href="#objetivos">Objetivos</a> </li>
+                <li> <a href="#projetos">Projetos</a> </li>
+                <li> <a href="#habilidades">Habilidades</a> </li>
+                <li> <a href="#contato">Contato</a> </li>
+            </ul>
+        </nav>
+        <section id="citacao">
+            <div id="texto_citacao">
+                <p>“O Senhor não olha tanto a grandeza das nossas obras. Olha mais o amor com que são feitas.”</p>
+                <span>Santa Teresa de Ávila</span>
+            </div>
+            <div id="imagem_citacao">
+                <img src="img/santa_teresa3.png">
+            </div>
+        </section>
+        <section id="sobre">
+            <div id="imagem_sobre">
+                <img src="img/felipe_menezes.jpg">
+            </div>
+            <div id="texto_sobre">
+                Desde criança sou apaixonado por tecnologia, era muito curioso e desenvolvia pequenos projetos por conta própria. A vida acabou me levando por outros caminhos que, sem dúvidas, me agregaram e muito. Atualmenete eu ansio por tão logo voltar minha vida ao mercado da tecnologia, para assim poder estar fazendo o que eu realmente sempre amei e me proporcionando melhores condições de vida.
+            </div>
+        </section>
+
+        <section>
+            <form>
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+            </form>
+
+            <button onclick="apresentarMensagem()">Enviar!</button>
+
+            <script type="text/javascript">
+                function apresentarMensagem() {
+                    alert("Oi!");
+                }
+            </script>
+
+        </section>
+        
+    </body>
+</html>

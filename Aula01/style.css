@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color:#3f8892;
+    /* position: fixed; */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    padding: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #0a1846;
+    font-weight: 700;
+}
+
+section#citacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+section#citacao div#imagem_citacao{
+    display: flex;
+    justify-content: center;
+}
+
+section#citacao div#texto_citacao{
+    margin-left: 10%;
+}
+
+section#citacao div img{
+    width: 60%;
+}
+
+section#citacao div p {
+    font-size: 2vw;
+    font-weight: 700;
+    color: #3f8892;
+    /* text-align: right; */
+}
+
+section#citacao div span {
+    color: #174850;
+    font-size: 1vw;
+    font-weight: 700;
+    float: right;
+    /* text-align: right; */
+}
+
+section#sobre {
+    display: flex;
+    background-color: rgb(63, 136, 146);
+    justify-content: center;
+    padding: 4rem;
+    align-items: center;
+}
+
+section#sobre div img {
+    border-radius: 50%;
+    width: 60%
+}
+
+section#sobre div#imagem_sobre {
+    display: flex;
+    justify-content: center;
+}
+
+section#sobre div#texto_sobre ul {
+    list-style: none;
+}
+
+section#sobre div#texto_sobre {
+    font-size: 1.3vw;
+    text-align: justify;
+    color: #fff;
+    line-height: 2rem;
+    padding-right: 5rem;
+}
